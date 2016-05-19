@@ -1003,7 +1003,7 @@ input[type=range] + .thumb {
 
 @media only screen and (min-width: 1280px) {
     .container {
-        width: 67.3%;
+        width: 69.3%;
     }
 }
 
@@ -5901,7 +5901,6 @@ h5:hover{
 }
 .orange-up {
     color: #fc6501 !important;
-    margin-left: 50%;
 }
 .blue-up {
     color: #00aee0 !important;
@@ -5964,4 +5963,33 @@ section {
 }
 .col.s12.center.up-top{
     margin-top: 10%;
+}
+.push {
+    margin-top: 15px; 
+}
+.float-right {
+    float: right;
+}
+.menu {
+    margin-top: 4% !important; 
+}
+@media only screen and (max-width: 1050px) {
+    .menu {
+        margin-top: 3% !important; 
+    }
+}
+@media only screen and (max-width: 825px) {
+    .menu {
+        margin-top: 2% !important; 
+    }
+}
+@media only screen and (max-width: 600px) {
+    .menu {
+        margin-top: 4% !important; 
+    }
+}
+@media only screen and (max-width: 400px) {
+    .menu {
+        margin-top: 2% !important; 
+    }
 }

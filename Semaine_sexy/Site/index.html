@@ -16,12 +16,12 @@
         <nav>
             <div class="container ">
                 <div class="nav-wrapper navbar-fixed">
-                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                    <ul class="row">
-                        <li class="col s3"><a href="#!" class="logo none"><img src="./images/yakarouler-logo.jpg" alt="Yakarouler.com" class="responsive-img"></a></li>
-                        <li class="col offset-s1"><a href="#!" class="small none"><i class="material-icons">search</i></a></li>
-                        <li class="col s2"><a href="#!" class="small none"><img src="images/support.svg"></a></li>
-                        <li class="col s2"><a href="#!" class="small none"><img src="images/cart.svg"></a></li>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse menu"><i class="material-icons">menu</i></a>
+                    <ul class="row valign-wrapper">
+                        <li class="col m3 s6 valign"><a href="#!" class="logo none"><img class="responsive-img" src="./images/yakarouler-logo.jpg" alt="Yakarouler.com"></a></li>
+                        <li class="col m3  push-m3 s2 push-s1"><a href="#!" class="small none"><img class="responsive-img" src="images/glass.svg"></a></li>
+                        <li class="col m3 push-m3 s2 push-s1"><a href="#!" class="small none"><img class="responsive-img" src="images/support.svg"></a></li>
+                        <li class="col m3 push-m3 s2 push-s1"><a href="#!" class="small none"><img class="responsive-img" src="images/cart_orange.svg"></a></li>
                     </ul>
 
                     <a href="#!" class="brand-logo"><img src="./images/yakarouler-logo.jpg" alt="Yakarouler.com" class="responsive-img"></a>
@@ -38,10 +38,10 @@
                             <a href="#!" class="small"><img src="images/support.svg">Assistance</a>
                         </li>
                         <li>
-                            <a href="#modal1" class="small blue"><img src="images/account.svg">Connexion</a>
+                            <a href="#modal1" class="small blue"><img src="images/account_blue.svg">Connexion</a>
                         </li>
                         <li>
-                            <a class="orange-text small" href="#!"><img src="images/cart.svg">Mon panier</a>
+                            <a class="orange-text small" href="#!"><img src="images/cart_orange.svg">Mon panier</a>
                         </li>
                     </ul>
                 </div>
@@ -306,9 +306,13 @@
                                 <input id="carte-grise" type="text" class="validate">
                                 <label for="text" data-error="wrong" data-success="right">UX42V3</label>
                             </div>
-                            <a href="#!" class="btn">OK</a>
+                            <div class="col l12 m12 s12 center">
+                                <a href="#!" class="btn">OK</a>
+                            </div>
+                            <div class="col l10 push-l4 m12 push-m4 s12 push">
+                                <a href="#!">Où trouver mon type mine ?</a>
+                            </div>
                         </div>
-                        <span classe="imma"><a href="#!" class="blue-up">Où trouver mon type mine ?</a></span>
                     </div>
                 </form>
             </div>
@@ -331,7 +335,9 @@
                         <li><a href="#!">Kit disques + roulements</a></li>
                         <li><a href="#!">Kit tambours + roulements</a></li>
                         <li><a href="#!">Etrier de frein</a></li>
-                        <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_a">Voir plus</a></li>
+                        <div class="float-right">
+                            <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_a">Voir plus</a></li>
+                        </div>
                     </ul>
                     <ul id="dropdown_a" class="dropdown-content up">
                         <li><a href="#!">Tambour / Kit arrière</a></li>
@@ -357,7 +363,9 @@
                         <li><a href="#!">Filtre à huile</a></li>
                         <li><a href="#!">Filtre à huile de boite de vitesse</a></li>
                         <li><a href="#!">Filtre d'habitacle</a></li>
-                        <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_b">Voir plus</a></li>
+                        <div class="float-right">
+                            <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_b">Voir plus</a></li>
+                        </div>
                     </ul>
                     <ul id="dropdown_b" class="dropdown-content up">
                         <li><a href="#!">Filtres sport / compétition</a></li>
@@ -375,7 +383,9 @@
                         <li><a href="#!">Pièces de suspension</a></li>
                         <li><a href="#!">Silentblocs</a></li>
                         <li><a href="#!">Roulement / moyeu / roue</a></li>
-                        <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_c">Voir plus</a></li>
+                        <div class="float-right">
+                            <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_c">Voir plus</a></li>
+                        </div>
                     </ul>
                     <ul id="dropdown_c" class="dropdown-content up">
                         <li><a href="#!">Suspension hydraulique / Sphère</a></li>
@@ -391,7 +401,9 @@
                         <li><a href="#!">Filtre à particules</a></li>
                         <li><a href="#!">Sonde lambda</a></li>
                         <li><a href="#!">Tube d'échappement</a></li>
-                        <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_d">Voir plus</a></li>
+                        <div class="float-right">
+                            <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_d">Voir plus</a></li>
+                        </div>
                     </ul>
                     <ul id="dropdown_d" class="dropdown-content up">
                         <li><a href="#!">Connecteur de sonde lambda</a></li>
@@ -419,7 +431,9 @@
                         <li><a href="#!">Distribution</a></li>
                         <li><a href="#!">Huile moteur</a></li>
                         <li><a href="#!">Injection</a></li>
-                        <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_e">Voir plus</a></li>
+                        <div class="float-right">
+                            <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_e">Voir plus</a></li>
+                        </div>
                     </ul>
                     <ul id="dropdown_e" class="dropdown-content up">
                         <li><a href="#!">Refroidissement</a></li>
@@ -448,7 +462,9 @@
                         <li><a href="#!">Volant moteur</a></li>
                         <li><a href="#!">Pièces d'embrayage</a></li>
                         <li><a href="#!">Transmission / cardan</a></li>
-                        <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_f">Voir plus</a></li>
+                        <div class="float-right">
+                            <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_f">Voir plus</a></li>
+                        </div>
                     </ul>
                     <ul id="dropdown_f" class="dropdown-content up">
                         <li><a href="#!">Soufflet de cardan</a></li>
@@ -467,7 +483,9 @@
                         <li><a href="#!">Alternateur</a></li>
                         <li><a href="#!">Batterie</a></li>
                         <li><a href="#!">Démarreur</a></li>
-                        <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_g">Voir plus</a></li>
+                        <div class="float-right">
+                            <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_g">Voir plus</a></li>
+                        </div>
                     </ul>
                     <ul id="dropdown_g" class="dropdown-content up">
                         <li><a href="#!">Pièces alternateur</a></li>
@@ -484,7 +502,9 @@
                         <li><a href="#!">Serrures/fermetures</a></li>
                         <li><a href="#!">Rétroviseurs intérieurs</a></li>
                         <li><a href="#!">Aile</a></li>
-                        <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_h">Voir plus</a></li>
+                        <div class="float-right">
+                            <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_h">Voir plus</a></li>
+                        </div>
                     </ul>
                     <ul id="dropdown_h" class="dropdown-content up">
                         <li><a href="#!">Parechoc</a></li>
@@ -510,7 +530,9 @@
                         <li><a href="#!">Pédalier</a></li>
                         <li><a href="#!">Commandes éclairage</a></li>
                         <li><a href="#!">Airbag</a></li>
-                        <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_i">Voir plus</a></li>
+                        <div class="float-right">
+                            <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_i">Voir plus</a></li>
+                        </div>
                     </ul>
                     <ul id="dropdown_i" class="dropdown-content up">
                         <li><a href="#!">Siège</a></li>
@@ -527,7 +549,9 @@
                         <li><a href="#!">Pièces d'essuie glace</a></li>
                         <li><a href="#!">Ampoules</a></li>
                         <li><a href="#!">Système de lave glace</a></li>
-                        <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_j">Voir plus</a></li>
+                        <div class="float-right">
+                            <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_j">Voir plus</a></li>
+                        </div>
                     </ul>
                     <ul id="dropdown_j" class="dropdown-content up">
                         <li><a href="#!">Système de lave phare</a></li>
@@ -553,7 +577,9 @@
                         <li><a href="#!">Kit aide au stationnement</a></li>
                         <li><a href="#!">Pièces de barres de toit</a></li>
                         <li><a href="#!">Kit barres de toit</a></li>
-                        <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_l">Voir plus</a></li>
+                        <div class="float-right">
+                            <li><a class="dropdown-button orange-up" href="#!" data-activates="dropdown_l">Voir plus</a></li>
+                        </div>
                     </ul>
                     <ul id="dropdown_l" class="dropdown-content up">
                         <li><a href="#!">Divers portage</a></li>
@@ -597,9 +623,12 @@
         </article>
         <section class="carou">
             <div class="carousel">
-                <a class="carousel-item" href="#one!"><img src="./images/carou1.png"></a>
-                <a class="carousel-item" href="#two!"><img src="./images/carou2.png"></a>
-                <a class="carousel-item" href="#three!"><img src="./images/carou3.png"></a>
+                <a class="carousel-item" href="#one!"><img src="./images/430px-Brembo_logo.svg.png"></a>
+                <a class="carousel-item" href="#two!"><img src="./images/Bosch-brand.svg.png"></a>
+                <a class="carousel-item" href="#three!"><img src="./images/monroe.png"></a>
+                <a class="carousel-item" href="#four!"><img src="./images/thule.png"></a>
+                <a class="carousel-item" href="#five!"><img src="./images/trw.png"></a>
+                <a class="carousel-item" href="#six!"><img src="./images/sachs.png"></a>
             </div>
         </section>
         <footer class="page-footer">
@@ -670,16 +699,16 @@
                     <h5>Ils parlent de nous</h5>
                     <div class="row center">
                         <div class="containe">
-                            <div class="col l3 m3 s6">
+                            <div class="col l3 m6 s6">
                                 <a href="#!"><img src="./images/tf1.png"></a>
                             </div>
-                            <div class="col l3 m3 s6">
+                            <div class="col l3 m6 s6">
                                 <a href="#!"><img src="./images/m6.png"></a>
                             </div>
-                            <div class="col l3 m3 s6">
+                            <div class="col l3 m6 s6">
                                 <a href="#!"><img src="./images/f2.png"></a>
                             </div>
-                            <div class="col l3 m3 s6">
+                            <div class="col l3 m6 s6">
                                 <a href="#!"><img src="./images/bfm.png"></a>
                             </div>
                         </div>
