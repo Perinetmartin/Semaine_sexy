@@ -5880,6 +5880,12 @@ ul li a {
     padding: 0 0px;
     cursor: pointer;
 }
+h1{
+    font-size: 14pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fc6501;
+}
 h4{
     font-size: 14pt;
     font-weight: bold;
@@ -5922,6 +5928,12 @@ article {
         display: none;
     }
     a.logo.none{
+        display: none;
+    }
+    h1.none{
+        display: none;
+    }
+    p.none{
         display: none;
     }
     img.responsive-img.none{
@@ -5999,4 +6011,7 @@ section {
     .menu {
         margin-top: 2% !important; 
     }
+}
+p.none {
+    margin-bottom: 10%;
 }
