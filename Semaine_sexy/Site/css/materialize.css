@@ -1787,12 +1787,12 @@ nav ul li a {
     font-size: 14pt;
     color: #000;
     display: inline-block;
-    padding: 0 24px;
+    padding: 0 20px;
     cursor: pointer;
 }
 
 .small {
-    font-size: 12pt;
+    font-size: 11pt;
     margin-top: 15px;
 }
 
@@ -1813,9 +1813,9 @@ nav .input-field {
 
 nav .input-field input {
     height: 100%;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     border: none;
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 
 nav .input-field input:focus, nav .input-field input[type=text]:valid, nav .input-field input[type=password]:valid, nav .input-field input[type=email]:valid, nav .input-field input[type=url]:valid, nav .input-field input[type=date]:valid {
@@ -1845,7 +1845,6 @@ nav .input-field label.active {
 .navbar-fixed {
     position: relative;
     height: 56px;
-    z-index: 998;
 }
 
 .navbar-fixed nav {
@@ -1856,7 +1855,6 @@ nav .input-field label.active {
     nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
         height: 64px;
         line-height: 64px;
-        margin-bottom: 2%
     }
     .navbar-fixed {
         height: 64px;
@@ -5802,9 +5800,12 @@ h3 {
 }
 .camel span {
     text-transform: uppercase;
+    font-weight: bold;
 }
 .camel p {
     text-transform: uppercase;
+    font-weight: bold;
+    line-height: 0px;
 }
 .camel img {
     height: 64px;
@@ -5831,7 +5832,7 @@ section .col img{
 }
 nav .row li a {
     padding: 0 0px;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .border {
@@ -5910,7 +5911,7 @@ h5:hover{
     color: #00aee0 !important;
 }
 article {
-    margin-top: 3%;
+    margin-top: 1%;
 }
 .containe {
     width: 90%;
@@ -5923,10 +5924,16 @@ article {
     a.logo.none{
         display: none;
     }
+    img.responsive-img.none{
+        display: none;
+    }
 }
 @media only screen and (max-width: 1280px) {
     a.brand-logo{
         display: none
+    }
+    img.responsive-img.one{
+        display: none;
     }
 }
 .logo img {
